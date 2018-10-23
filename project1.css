@@ -1,0 +1,80 @@
+h1 {
+	color: black;
+	font-size: 48px;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+img{
+	width: 900px;
+	margin: 20px auto;
+	display: block;
+}
+figcaption{
+	text-align: center;
+	padding-top: 5px;
+	font-size: 15px;
+	position: relative;
+	bottom: 20px;
+	color: gray;
+}
+
+p {
+	width: 700px;
+	margin: 20px auto;
+	font-family: 'Niramit', sans-serif;
+}
+
+.pullquote{
+	font-family: 'Bitter', serif;
+	font-size: 25px;
+	border: solid 2px red;
+	width: 600px;
+}
+
+.byline{
+	font-family: helvetica;
+	color: navy;
+	font-size: 14px;
+	padding-left: 10px;
+	text-transform: uppercase;
+
+}
+
+.time{
+	color: gray;
+	padding-left: 10px;
+	position: relative;
+	bottom: 20px;
+	font-size: 12px;
+}
+
+.video{
+	display: block;
+	width: 500px;
+	position: sticky;
+	top:80px;
+	margin: 0 auto;
+}
+
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 200px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-size: 40px;
+  text-align: left;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}

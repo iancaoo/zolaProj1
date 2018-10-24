@@ -26,7 +26,11 @@ p {
 }
 
 .profile{
+	width: 700px;
+	height: 100px;
+	background-color: 'black';
 	display: flex;
+	margin: auto;
 }
 
 .pullquote{
